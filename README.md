@@ -19,15 +19,31 @@ This project is a full-stack CRUD app built with:
     git clone https://github.com/Yquannn/flask-crud
   ```
 
-4. Open your terminal and navigate to flask-crud/server:
+2. Open your terminal and navigate to flask-crud/server:
     ```bash
    cd flask-crud/server
 
-6. Inside the server folder Install backend dependencies:
+3. Inside the server folder Install backend dependencies:
     ```bash
    pip install -r requirements.txt
+    
+  For Mac
+  
+  Inside the server folder:
+  1. Create a virtual environment
+  ```bash
+    python3 -m venv venv
+  ```
+  2 Activate the virtual environment  
+  ```
+    source venv/bin/activate
+  ```
+  3. Install the dependencies
+  ```
+     pip install -r requirements.txt
+  ```
 
-7. Start the Flask backend:
+4. Start the Flask backend:
    ```bash
    python run.py
 
